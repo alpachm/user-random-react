@@ -1,0 +1,63 @@
+.card__user {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.858);
+    overflow: hidden;
+
+    display: grid;
+    grid-template-rows: 1fr 1.8fr;
+}
+
+.top {
+    background: rgb(240, 240, 240);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+
+    position: relative;
+}
+
+.top img {
+    width: 140px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+    border: 1px solid rgb(152, 152, 152);
+
+    position: absolute;
+    bottom: -65px;
+    left: 155px;
+}
+
+.bottom {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+    text-align: center;
+
+    display: grid;
+    gap: .2rem;
+}
+
+.bottom span {
+    color: rgb(150, 150, 150);
+}
+
+.bottom .icons {
+    margin: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bottom .icons i {
+    font-size: 1.7rem;
+    color: rgb(201, 201, 201);
+    cursor: pointer;
+
+    transition: color .2s;
+}
+
+.bottom .icons i:hover {
+    color: #79b039;
+}

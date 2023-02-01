@@ -1,0 +1,72 @@
+.top__reset {
+    height: 10px;
+    width: 10px;
+    background: transparent;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.arrow__top {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: transparent;
+    color: transparent;
+    font-size: 2.5rem;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    transition: background .3s, color .3s;
+}
+
+.active__top__btn {
+    background: #79b039;
+    color: white;
+    cursor: pointer;
+}
+
+.arrow__top i {
+    color: inherit;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.container>h1 {
+    margin-bottom: 1rem;
+}
+
+form {
+    margin-bottom: 3rem;
+}
+
+form input {
+    border: 2px solid rgb(205, 205, 205);
+    height: 40px;
+    padding: 0 .5rem;
+}
+
+form button {
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    background: rgb(30, 30, 30);
+    color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.box__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
